@@ -1,8 +1,8 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args){
-        System.out.println("Hello world");
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         int[] authntificated_stud_id =  new int[n - 2];
